@@ -26,7 +26,7 @@ $ cd src && catkin_init_workspace
 
 2. Within the `catkin_ws/src` folder, clone the `teleop` project
 ```
-$ git clone https://github.com/ros-teleop/teleop_twist_keyboard
+$ git clone https://github.com/ros-teleop/teleop_twist_keyboard.git
 ```
 
 3. Within the `catkin_ws/src` folder, clone the `r` project
