@@ -72,6 +72,15 @@ the resulted map with the localized trajectory of the robot in a database file
 $ rtabmap-databaseViewer ~/.ros/rtabmap.db
 ```
 
+
+Note: With Robot to "teleport" when you get stuck you can input (places you at 0,0,0):
+
+rosservice call /gazebo/set_model_state "model_state:
+  {model_name: 'your_robot_name',
+  pose:
+    {position: {x: 0, y: 0, z: 0},
+    orientation: {x: 0, y: 0, z: 0, w: 1}}}"
+
 * Choose View -> Constraints View and Graph View
 * To see 3D Map, Choose Edit -> View 3D Map ...
     
